@@ -1,0 +1,53 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-container form {
+  display: flex;
+}
+
+.search-input-container {
+  position: relative;
+}
+
+.search-input {
+  padding: 10px 50px 10px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  color: red;
+  width: 400px;
+}
+
+.search-icons-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-mic-button, .search-camera-button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-mic-button:hover, .search-camera-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+/*.search-mic-button i, .search-camera-button i {
+  font-size: 18px;
+  color: #777;
+}
+
+.search-mic-button:hover i, .search-camera-button:hover i {
+  color: #000;
+}*/
+

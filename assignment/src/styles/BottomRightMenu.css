@@ -1,0 +1,21 @@
+.bottom-right {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 45%;
+    padding-left: 85%;
+}
+
+.bottom-right a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bottom-right a:hover {
+    text-decoration: underline;
+}
